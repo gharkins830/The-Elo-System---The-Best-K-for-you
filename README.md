@@ -3,6 +3,7 @@
 If you are working on a project where you would like to compare performance - be that of teams, players, or products - this repository contains the code for the Elo method. Elo was originally built for chess but can work with anything that you can assign a ‘win’, ‘loss’, or ‘tie’ between two objects. This repository contains Jupyter notebooks for a base Elo system, where you’ll find the standard K value is 32. This is a default value, but may not be the best for your dataset. The other two Jupyter notebooks serve to find that best K value for your dataset. The two do a similar job but with a slightly different goal. OptimizeK_FullTraining is a more general approach to finding your best K.
 
 Those Reasons may include:
+
 If you want to create a system that is biased by more recent games, increase K.
 
 If you want if you want a system that feels the impact of order less,  lower $K$. 
