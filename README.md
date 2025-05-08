@@ -27,3 +27,7 @@ Compared to OptimizeK_OnTheGo, this notebook is a more standard approach to opti
 This notebook will take in your dataset, and it will find the K value that leads to the Elo ratings best fitting the data at all points throughout the season. This notebook also runs the Elo system at that K value. This notebook also has the build-in property of choosing how much you want the system to remember. If you only want a certain amount of recent games to be relevant to the ratings, you can optimize K on the go for that amount of games to get that property.
 
 Compared to OptimizeK_FullTraining, this method for optimizing K will value its accuracy at all points in the season, so it produces the K that is the most accurate to the outcome of every game at the time of the game.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If you also want to check out Massey and Colley methods, check out https://github.com/gharkins830/Colley-Massey-Personalized-To-You
