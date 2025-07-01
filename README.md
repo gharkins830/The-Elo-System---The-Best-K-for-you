@@ -1,10 +1,10 @@
 # The Elo System: The Best K For You
 
-If you are working on a project where you would like to compare performance - be that of teams, players, or products - this repository contains the code for the Elo method. Elo was originally built for chess but can work with anything that you can assign a ‘win’, ‘loss’, or ‘tie’ between two objects. This repository contains Jupyter notebooks for a base Elo system, where you’ll find the standard K value is 32. This is a default value, but may not be the best for your dataset. The other two Jupyter notebooks serve to find that best K value for your dataset. The two do a similar job but with a slightly different goal. OptimizeK_FullTraining is a more general approach to finding your best K.
+If you are working on a project where you would like to compare performance - be that of teams, players, or products - this repository contains the code for the Elo method. Elo was originally built for chess but can work with anything that you can assign a ‘win’, ‘loss’, or ‘tie’ between two objects. This repository contains Jupyter notebooks for a standard Elo system, where you’ll find the default $K$ value is 32. This is a default value, but may not be the best for your dataset. The $K$ value affects how much the ratings adjust after each game is played. A larger $K$ value means the ratings are more reactive. Sometimes a high $K$ value is good, but sometimes it harshly punishes or overly rewards lucky teams. The other two Jupyter notebooks serve to find that best $K$ value for your dataset - The $K$ that balances being reactive to results, but not being too quick to judge. The two do a similar job but with a slightly different goal, detailed below. OptimizeK_FullTraining is a more general approach to finding your best K.
 
 Those Reasons may include:
 
-If you want to create a system that is biased by more recent games, increase K.
+If you want to create a system that is biased by more recent games, increase $K$.
 
 If you want if you want a system that feels the impact of order less,  lower $K$. 
 
@@ -31,3 +31,7 @@ Compared to OptimizeK_FullTraining, this method for optimizing K will value its 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 If you also want to check out Massey and Colley methods, check out https://github.com/gharkins830/Colley-Massey-Personalized-To-You
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If you are interested in my thesis, where I go into detail of all these system, see https://davidson.primo.exlibrisgroup.com/discovery/delivery/01DCOLL_INST:01DCOLL/12395940360005716
